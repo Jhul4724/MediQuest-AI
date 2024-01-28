@@ -379,6 +379,90 @@ nav .try-now {
       transform: scale(1.2)
   }
 }
+.footerbody {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #111;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: #111;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity:1;
+}
+
+.footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
 </style>
   <section>
     <div class="presentation">
@@ -405,5 +489,16 @@ nav .try-now {
     <div class="grid-item">6</div>
   </section>
   <footer>
-    <!-- Footer content here -->
+        <div class="footerContainer">
+        <div class="footerNav">
+            <ul>
+                <li><a href="about.to" rel="noopener noreferer">Dev Post</a></li>
+                <li><a href="https://github.com/Jhul4724/mchacks_mediquest"target="_blank" rel="noopener noreferer">Github</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer">MediQuest</span></p>
+    </div>
   </footer>

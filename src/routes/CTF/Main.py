@@ -24,7 +24,7 @@ def gpt(input):
 
 # print(gpt(""))
 
-gpt("WHen I run for more than a few minutes, breathing becomes difficult.")
+gpt("WHen I run for more than a few minutes, breathing becomes difyficult.")
 
 
 
