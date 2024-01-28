@@ -258,7 +258,7 @@ nav .try-now {
 
 /* ---------------------------------------- ABOUT.HTML CSS---------------------------------------*/
 .container {
-    margin-right: 15%;
+  margin-right: 15%;
   margin-left: 15%;
   flex-direction: row;
 }
@@ -413,7 +413,7 @@ nav .try-now {
       <a href="index.html"><img src="Images/logo.png" alt="Logo"></a>
       
       <ul id="nav-list">
-        <li><a href="../index">Explore</a></li>
+        <li><a href="/ctf">Explore</a></li>
         <li><a href="/system">How It Works</a></li>
         <li><a href="/about" style="box-shadow: 1px 1px 20px rgba(26, 5, 255, 0.3);">About</a></li>
       </ul>
