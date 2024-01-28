@@ -3,8 +3,8 @@ import json
 from openai import OpenAI
 
 def gpt(input):
-    OpenAI.api_key = "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"
-    client = OpenAI(api_key="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")
+    OpenAI.api_key = "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"
+    client = OpenAI(api_key="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")
 
     response = client.chat.completions.create(
     model="gpt-3.5-turbo-1106",
@@ -12,7 +12,7 @@ def gpt(input):
     messages=[
         {
         "role": "system",
-        "content": "friendly answer"
+        "content": "From the following message from the user, provide me with a likely diagnosis for their health condition."
         },
         {
         "role": "user",
@@ -22,7 +22,9 @@ def gpt(input):
     )
     return response.choices[0].message.content
 
-print(gpt("give me 2 medical facts"))
+# print(gpt(""))
+
+gpt("WHen I run for more than a few minutes, breathing becomes difficult.")
 
 
 
