@@ -414,12 +414,12 @@ nav .try-now {
       <a href="index.html"><img src="./Images/logo.png" alt="Logo"></a>
       
       <ul id="nav-list">
-        <li><a href="../index" style="box-shadow: 1px 1px 20px rgba(26, 5, 255, 0.3);">Explore</a></li>
+        <li><a href="../">Explore</a></li>
         <li><a href="/system">How It Works</a></li>
         <li><a href="/about">About</a></li>
       </ul>
     
-      <a href="CTF.html" class="try-now">SEARCH</a>
+      <a href="/ctf" class="try-now">SEARCH</a>
     </nav>
     <div class="image-container"></div>
   </section>
@@ -435,7 +435,7 @@ nav .try-now {
       </h3>
       <br><br>
       <div>
-        <a href="./ctf.html" class="btn1"><i class="animation"></i>TRY US NOW<i class="animation"></i></a>
+        <a href="/ctf" class="btn1"><i class="animation"></i>TRY US NOW<i class="animation"></i></a>
       </div>
     </div>
   </section>

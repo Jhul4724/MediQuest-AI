@@ -258,8 +258,7 @@ nav .try-now {
 
 /* ---------------------------------------- ABOUT.HTML CSS---------------------------------------*/
 .container {
-  margin-right: 15%;
-  margin-left: 15%;
+
   flex-direction: row;
 }
 
@@ -379,7 +378,7 @@ nav .try-now {
   }
 }
 
-.text {
+.send {
 
 }
 
@@ -394,28 +393,27 @@ nav .try-now {
 .text {
 
 }
-
 
 
 </style>
-<html lang="eng">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css" >
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <title>Home Page</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./Images/logoweb.png" />
+  <title>Index</title>
 </head>
-
-<body style="height: 130vh;">
+<body>
   <section>
     <nav>
-      <a href="index.html"><img src="Images/logo.png" alt="Logo"></a>
+      <a href="index.html"><img src="./Images/logo.png" alt="Logo"></a>
       
       <ul id="nav-list">
-        <li><a href="/ctf">Explore</a></li>
+        <li><a href="../" style="box-shadow: 1px 1px 20px rgba(26, 5, 255, 0.3);">Explore</a></li>
         <li><a href="/system">How It Works</a></li>
-        <li><a href="/about" style="box-shadow: 1px 1px 20px rgba(26, 5, 255, 0.3);">About</a></li>
+        <li><a href="/about">About</a></li>
       </ul>
     
       <a href="CTF.html" class="try-now">SEARCH</a>
@@ -423,59 +421,24 @@ nav .try-now {
     <div class="image-container"></div>
   </section>
 
-  <section>
-    <div class="abouttitle">
-        <h1 class="outlined-text">ABOUT US</h1>
-        <h2>
-            <div class="abouttext outlined-text">Passionate About Health and Healing</div>
-            <br>
-            At <i><b>MediQuest AI</b></i>, our mission is clear: to leverage our expertise in 
-            programming and technology to create real-world solutions that help patients find 
-            the medical treatments they need. We are a team united by a shared passion for healthcare 
-            innovation and the belief that everyone deserves access to the best possible medical care.
-        </h2>
-        <br><br><br><br>
-    </div>
-
-    <div class="container">
-        <div class="flex-container">
-            <div class="column flex-item">
-                <a href="https://www.linkedin.com/in/julienhu/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
-                   <div class="content1">
-                      <h3 style="color: aliceblue; font-size: 25px;">Julien Hu</h3>
-                      <img class="profile" src="Images/Julien.jpg">
-                      <h5 style="text-align: justify; padding: 20px;">
-                        Julien is a Computer Science student and a front-end developer with a strong passion 
-                        for artificial intelligence. Skilled in creating engaging user interfaces, 
-                        he excels in applying innovative AI solutions to enhance web 
-                        experiences. 
-                        <br><br>
-                        Julien combines technical prowess with a creative approach, 
-                        constantly exploring new trends in the tech world.
-                      </h5>
-                   </div>
-                </a>
+  <section class="form">
+    <div class="content">
+        <form style="background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(5px); padding: 15px; border-radius: 15px; box-shadow: 1px 1px 20px rgba(10, 5, 20, 0.5);">
+            <h1 class="outlined-text">MediQuest AI Form</h1>
+            <div>
+                <label for="notes">To better assist you in finding the most suitable clinical trials, please provide us with 
+                    details about your medical condition or diagnosis. The information you share will enable our AI-driven 
+                    system to identify and recommend trials that are most relevant to your specific health needs.
+                </label> 
+                <br><br>
+                <textarea style="width: 100%; height: 300px; background-color: rgb(148, 148, 148, 0.1); border-radius: 10px;"></textarea>
+                <button type="submit" id="submitButton" class="send">
+                    SEND
+                </button>
+                <br><br>
             </div>
-        </div>
-        <div class="flex-container">
-            <div class="column flex-item">
-                <a href="https://www.linkedin.com/in/julienhu/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
-                   <div class="content1">
-                      <h3 style="color: aliceblue; font-size: 25px;">Julien Hu</h3>
-                      <img class="profile" src="Images/Julien.jpg" alt="Picture of Julien Hu">
-                      <h5 style="text-align: justify; padding: 20px;">
-                        Julien is a Computer Science student and a front-end developer with a strong passion 
-                        for artificial intelligence. Skilled in creating engaging user interfaces, 
-                        he excels in applying innovative AI solutions to enhance web 
-                        experiences. 
-                        <br><br>
-                        Julien combines technical prowess with a creative approach, 
-                        constantly exploring new trends in the tech world.
-                      </h5>
-                   </div>
-                </a>
-            </div>
-        </div>
+            
+        </form>
     </div>
   </section>
 

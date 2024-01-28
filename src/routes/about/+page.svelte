@@ -413,7 +413,7 @@ nav .try-now {
       <a href="index.html"><img src="Images/logo.png" alt="Logo"></a>
       
       <ul id="nav-list">
-        <li><a href="../index">Explore</a></li>
+        <li><a href="../">Explore</a></li>
         <li><a href="/system">How It Works</a></li>
         <li><a href="/about" style="box-shadow: 1px 1px 20px rgba(26, 5, 255, 0.3);">About</a></li>
       </ul>
@@ -443,7 +443,7 @@ nav .try-now {
                 <a href="https://www.linkedin.com/in/julienhu/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
                    <div class="content1">
                       <h3 style="color: aliceblue; font-size: 25px;">Julien Hu</h3>
-                      <img class="profile" src="Images/Julien.jpg">
+                      <img class="profile" src="/images/Julien.jpg">
                       <h5 style="text-align: justify; padding: 20px;">
                         Julien is a Computer Science student and a front-end developer with a strong passion 
                         for artificial intelligence. Skilled in creating engaging user interfaces, 
