@@ -302,6 +302,14 @@
   place-items: center;
   height: 100px;
 }
+
+.background {
+  background-image: url('/'); /* Replace with the path to your image */
+  background-size: cover; /* This will cover the entire area of the textarea */
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #000;
+}
 </style>
 
 
@@ -315,11 +323,13 @@
                     system to identify and recommend trials that are most relevant to your specific health needs.
                 </label> 
                 <br><br>
-                <textarea style="width: 100%; height: 300px; background-color: rgb(148, 148, 148, 0.1); border-radius: 10px;" bind:value={text_box}/>
+                <textarea class="background" style="width: 100%; height: 300px; background-color: rgb(148, 148, 148, 0.1); border-radius: 10px;" bind:value={text_box}/>
                 <div class="btn3">
-                  <button type="submit" id="submitButton" class="send">
+                  <a href="/result">
+                    <button type="submit" id="submitButton" class="send">
                     SEND
                   </button>
+                  </a>
                 </div>
                 <br><br>
             </div>
