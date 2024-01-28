@@ -411,10 +411,10 @@ nav .try-now {
 <body>
   <section>
     <nav>
-      <a href="index.html"><img src="./Images/logo.png" alt="Logo"></a>
+      <a href="../"><img src="./Images/logo.png" alt="Logo"></a>
       
       <ul id="nav-list">
-        <li><a href="../">Explore</a></li>
+        <li><a href="../" style="box-shadow: 1px 1px 20px rgba(26, 5, 255, 0.3);">Explore</a></li>
         <li><a href="/system">How It Works</a></li>
         <li><a href="/about">About</a></li>
       </ul>
