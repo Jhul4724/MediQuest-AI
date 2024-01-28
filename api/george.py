@@ -1,4 +1,4 @@
-# from http.server import BaseHTTPRequestHandler
+from http.server import BaseHTTPRequestHandler
 import json
 from openai import OpenAI
 
@@ -25,32 +25,32 @@ def gpt(input):
     return json.loads(response.choices[0].message.content)
 
 
+def inforapi(inputapi):
+
+    output = (gpt(inputapi))['condition']
+
+    print(output)
+    f = open("studies.json", "r") 
+    test = json.load(f)
+    print(len(test['articles']))
+    links = []
+    i = 0
+    while i < len(test['articles']):
+        if test['articles'][i]['condition'] in output:
+            print(test['articles'][i]['title'])
+        i+=1
 
 
-output = (gpt("When I fall, i cant get up for 20 minutes without difficulty breathing and a pain in my left hip"))['condition']
 
-print(output)
-f = open("studies.json", "r") 
-test = json.load(f)
-print(len(test['articles']))
-links = []
-i = 0
-while i < len(test['articles']):
-    if test['articles'][i]['condition'] in output:
-        print(test['articles'][i]['title'])
-    i+=1
+class handler(BaseHTTPRequestHandler):
 
+   def do_POST(self):
+         content_length = int(self.headers['Content-Length'])
+         post_data = self.rfile.read(content_length)
+         received_data = str(post_data.decode('utf-8'))
+         htmlhaha = str(inforapi(received_data))
 
-
-# class handler(BaseHTTPRequestHandler):
-
-#    def do_POST(self):
-#          content_length = int(self.headers['Content-Length'])
-#          post_data = self.rfile.read(content_length)
-#          received_data = str(post_data.decode('utf-8'))
-#          htmlhaha = str(json_to_html(gpt(received_data)))
-
-#          self.send_response(200)
-#          self.send_header('Content-type', 'plain/text')
-#          self.end_headers()
-#          self.wfile.write(htmlhaha.encode('utf-8'))
+         self.send_response(200)
+         self.send_header('Content-type', 'plain/text')
+         self.end_headers()
+         self.wfile.write(htmlhaha.encode('utf-8'))
