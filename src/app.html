@@ -6,6 +6,35 @@
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 	</head>
+
+	<style>
+		html {
+			font-family: 'Roboto', sans-serif;
+		  }
+			
+		  body {
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+			color: white;
+			background: linear-gradient(-45deg, #aac0f4, rgb(163, 161, 255), #c0e6ff, #c3b8fd);
+			background-size: 400% 400%;
+			animation: gradient 10s ease infinite;
+			height: 100vh;
+			}
+			@keyframes gradient {
+			  0% {
+			  background-position: 0% 50%;
+			  }
+			  50% {
+			  background-position: 100% 50%;
+			  }
+			  100% {
+			  background-position: 0% 50%;
+			  }
+		  }
+		</style>
+
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>

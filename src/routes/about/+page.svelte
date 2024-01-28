@@ -345,7 +345,6 @@ nav .try-now {
 }
 
 .profile {
-
   width: 150px;
   height: 150px;
   border-radius: 100%;
@@ -378,58 +377,15 @@ nav .try-now {
       transform: scale(1.2)
   }
 }
-
-.text {
-
-}
-
-.text {
-
-}
-
-.text {
-
-}
-
-.text {
-
-}
-
-
-
 </style>
-<html lang="eng">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles.css" >
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <title>Home Page</title>
-</head>
-
-<body style="height: 130vh;">
-  <section>
-    <nav>
-      <a href="index.html"><img src="Images/logo.png" alt="Logo"></a>
-      
-      <ul id="nav-list">
-        <li><a href="../index">Explore</a></li>
-        <li><a href="/system">How It Works</a></li>
-        <li><a href="/about" style="box-shadow: 1px 1px 20px rgba(26, 5, 255, 0.3);">About</a></li>
-      </ul>
-    
-      <a href="CTF.html" class="try-now">SEARCH</a>
-    </nav>
-    <div class="image-container"></div>
-  </section>
 
   <section>
     <div class="abouttitle">
-        <h1 class="outlined-text">ABOUT US</h1>
+        <h1 class="outlined-text"  >ABOUT US</h1>
         <h2>
             <div class="abouttext outlined-text">Passionate About Health and Healing</div>
             <br>
-            At <i><b>MediQuest AI</b></i>, our mission is clear: to leverage our expertise in 
+            At <i><b> MediQuest AI</b></i>, our mission is clear: to leverage our expertise in 
             programming and technology to create real-world solutions that help patients find 
             the medical treatments they need. We are a team united by a shared passion for healthcare 
             innovation and the belief that everyone deserves access to the best possible medical care.
@@ -443,26 +399,7 @@ nav .try-now {
                 <a href="https://www.linkedin.com/in/julienhu/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
                    <div class="content1">
                       <h3 style="color: aliceblue; font-size: 25px;">Julien Hu</h3>
-                      <img class="profile" src="Images/Julien.jpg">
-                      <h5 style="text-align: justify; padding: 20px;">
-                        Julien is a Computer Science student and a front-end developer with a strong passion 
-                        for artificial intelligence. Skilled in creating engaging user interfaces, 
-                        he excels in applying innovative AI solutions to enhance web 
-                        experiences. 
-                        <br><br>
-                        Julien combines technical prowess with a creative approach, 
-                        constantly exploring new trends in the tech world.
-                      </h5>
-                   </div>
-                </a>
-            </div>
-        </div>
-        <div class="flex-container">
-            <div class="column flex-item">
-                <a href="https://www.linkedin.com/in/julienhu/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
-                   <div class="content1">
-                      <h3 style="color: aliceblue; font-size: 25px;">Julien Hu</h3>
-                      <img class="profile" src="Images/Julien.jpg" alt="Picture of Julien Hu">
+                      <img class="profile" src="Images/Julien.jpg" style="opacity: 0.8;">
                       <h5 style="text-align: justify; padding: 20px;">
                         Julien is a Computer Science student and a front-end developer with a strong passion 
                         for artificial intelligence. Skilled in creating engaging user interfaces, 
@@ -484,5 +421,4 @@ nav .try-now {
   <footer>
     <!-- Footer content here -->
   </footer>
-</body>
-</html>
+

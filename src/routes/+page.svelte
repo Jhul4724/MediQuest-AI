@@ -379,51 +379,7 @@ nav .try-now {
       transform: scale(1.2)
   }
 }
-
-.text {
-
-}
-
-.text {
-
-}
-
-.text {
-
-}
-
-.text {
-
-}
-
-
-
 </style>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles.css" >
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="./Images/logoweb.png" />
-  <title>Index</title>
-</head>
-<body>
-  <section>
-    <nav>
-      <a href="index.html"><img src="./Images/logo.png" alt="Logo"></a>
-      
-      <ul id="nav-list">
-        <li><a href="../index" style="box-shadow: 1px 1px 20px rgba(26, 5, 255, 0.3);">Explore</a></li>
-        <li><a href="/system">How It Works</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    
-      <a href="CTF.html" class="try-now">SEARCH</a>
-    </nav>
-    <div class="image-container"></div>
-  </section>
-
   <section>
     <div class="presentation">
       <h1 style="font-size:80px; margin-top:10px; margin-bottom:10px; box-shadow: 10px;" class="outlined-text">Welcome to MediQuest AI</h1>
@@ -435,7 +391,7 @@ nav .try-now {
       </h3>
       <br><br>
       <div>
-        <a href="./ctf.html" class="btn1"><i class="animation"></i>TRY US NOW<i class="animation"></i></a>
+        <a href="/ctf" class="btn1"><i class="animation"></i>TRY US NOW<i class="animation"></i></a>
       </div>
     </div>
   </section>
@@ -451,5 +407,3 @@ nav .try-now {
   <footer>
     <!-- Footer content here -->
   </footer>
-</body>
-</html>
