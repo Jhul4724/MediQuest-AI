@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Analysis of Global Ischemic Heart Disease Burden from Multiple Perspectives",
+    "link": " https://doi.org/10.1101/2023.10.26.23297610",
+    "condition": "heart disease"
+  },
+  {
+    "title": "Time-Dependent ECG-AI Prediction of Fatal Coronary Heart Disease",
+    "link": "https://doi.org/10.1101/2023.10.11.23296910",
+    "condition": "heart disease"
+  },
+  {
+    "title": "Cerebral microhemorrhages in children with congenital heart disease: Prevalence, risk factors, and impact on neurodevelopmental outcomes",
+    "link": "https://doi.org/10.1101/2023.12.05.23299539",
+    "condition": "heart disease"
+  },
+  {
+    "title": "Understanding Cardiac Events in Breast Cancer (UCARE) - Pilot Cardio-Oncology Assessment and Surveillance Pathway for Breast Cancer Patients",
+    "link": "https://doi.org/10.1101/2023.12.15.23300055",
+    "condition": "breast cancer"
+  },
+  {
+    "title": "Applications of Large Language Models (LLMs) in Breast Cancer Care",
+    "link": "https://doi.org/10.1101/2023.11.04.23298081",
+    "condition": "breast cancer"
+  },
+  {
+    "title": "Prolonged time to breast cancer surgery and the risk for metastasis",
+    "link": "https://doi.org/10.1101/2024.01.11.24301150",
+    "condition": "breast cancer"
+  },
+  {
+    "title": "Global associations of macronutrient supply and asthma disease burden",
+    "link": "https://doi.org/10.1101/2023.12.18.23300109",
+    "condition": "asthma"
+  },
+  {
+    "title": "Social risk factors for pediatric asthma exacerbations: A systematic review",
+    "link": "https://doi.org/10.1101/2023.09.19.23295732",
+    "condition": "asthma"
+  }
+]
