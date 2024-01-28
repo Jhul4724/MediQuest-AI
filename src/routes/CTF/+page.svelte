@@ -304,12 +304,16 @@
 }
 
 .background {
-  background-image: url('/'); /* Replace with the path to your image */
-  background-size: cover; /* This will cover the entire area of the textarea */
-  background-repeat: no-repeat;
-  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1)), 
+              url('/Images/logo.png') no-repeat center center;
+  background-size: cover;
   color: #000;
-}
+  opacity: 0.1;
+  }
 </style>
 
 
@@ -325,11 +329,9 @@
                 <br><br>
                 <textarea class="background" style="width: 100%; height: 300px; background-color: rgb(148, 148, 148, 0.1); border-radius: 10px;" bind:value={text_box}/>
                 <div class="btn3">
-                  <a href="/result">
-                    <button type="submit" id="submitButton" class="send">
-                    SEND
-                  </button>
-                  </a>
+                  <a href="/result"><button type="submit" id="submitButton" class="send">
+                      SEND
+                    </button></a>
                 </div>
                 <br><br>
             </div>

@@ -308,35 +308,114 @@
     background-repeat: no-repeat;
     background-position: center;
     color: #000;
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2)), 
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), 
               url('/Images/logo.png') no-repeat center center;
   background-size: cover;
   color: #000;
   opacity: 0.1;
   }
+
+  /*---------------------------------------------------------------RESULT PAGE--------------------------------------------------------------*/
+  .results-page {
+  background-color: rgb(96, 95, 95, 0.2);
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.results-page h2, .results-page h3 {
+  color: #f0f0f0;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.diagnosis-summary, .recommendation, .suitability, .trial-details, .next-steps {
+  background-color: rgb(96, 95, 95, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.diagnosis-summary p, .recommendation p, .suitability p, .trial-details ul, .next-steps p {
+  color: #ffffff;
+  line-height: 1.6;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trial-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trial-details li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.trial-details li:last-child {
+  border-bottom: none;
+}
+
+.trial-details strong {
+  color: #333;
+}
+
   </style>
   
   
     <section class="form">
       <div class="content">
-          <form style="background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(5px); padding: 15px; border-radius: 15px; box-shadow: 1px 1px 20px rgba(10, 5, 20, 0.5);">
-              <h1 class="outlined-text">MediQuest AI Form</h1>
-              <div>
-                  <label for="notes">To better assist you in finding the most suitable clinical trials, please provide us with 
-                      details about your medical condition or diagnosis. The information you share will enable our AI-driven 
-                      system to identify and recommend trials that are most relevant to your specific health needs.
-                  </label> 
-                  <br><br>
-                  <textarea class="background" style="width: 100%; height: 300px; background-color: rgb(148, 148, 148, 0.1); border-radius: 10px;" bind:value={text_box}/>
-                  <div class="btn3">
-                    <button type="submit" id="submitButton" class="send">
-                      SEND
-                    </button>
-                  </div>
-                  <br><br>
-              </div>
+          <div style="background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(5px); padding: 15px; border-radius: 15px; box-shadow: 1px 1px 20px rgba(10, 5, 20, 0.5);">
+              <h1 class="outlined-text" style="text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-size: 40px;">Lymphocytic Leukemia Research 1.002.34 <i>by University of Stanford</i></h1>
               
-          </form>
+              <section class="results-page">
+
+                <div class="diagnosis-summary">
+                  <h2>Your Diagnosis Overview</h2>
+                  <p>
+                    Based on the information you provided about your diagnosis, which includes chronic lymphocytic leukemia (CLL), our system has identified a specific clinical trial that aligns closely with your medical needs.
+                  </p>
+                </div>
+              
+                <div class="recommendation">
+                  <h2>Recommended for You: CLL Advanced Treatment Study</h2>
+                  <p>
+                    This recommendation has been selected based on several factors pertinent to your condition, such as the progressive nature of CLL and your genetic profile.
+                  </p>
+                </div>
+              
+                <div class="suitability">
+                  <h3>Why This is a Suitable Match for You</h3>
+                  <p>
+                    The CLL Advanced Treatment Study is particularly suited to your case due to its focus on innovative gene therapy techniques. Additionally, the trial has shown a high success rate in early-stage testing and is conveniently located in your region.
+                  </p>
+                </div>
+              
+                <div class="trial-details">
+                  <h3>Details of the Recommendation</h3>
+                  <ul>
+                    <li><strong>Research Type:</strong> Clinical Trial</li>
+                    <li><strong>Location:</strong> John Hopkins Research Center, Baltimore</li>
+                    <li><strong>Duration:</strong> Approximately 6 months</li>
+                    <li><strong>Eligibility Criteria:</strong> Diagnosed with CLL, Age 30-65, No prior gene therapy treatments</li>
+                  </ul>
+                </div>
+              
+                <div class="next-steps">
+                  <h3>Next Steps to Participate</h3>
+                  <p>
+                    If you are interested in this recommendation and would like to learn more or participate, you can contact the research team at cllstudy@jhopkins.com. For further assistance, feel free to reach out to our support team.
+                  </p>
+                </div>
+              
+              </section>
+              
+              
+              
+          </div>
       </div>
     </section>
   
