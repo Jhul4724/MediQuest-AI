@@ -446,7 +446,7 @@ footer{
 }
 
 .footerBottom{
-    background-color: rgba(185, 185, 185, 0.05); 
+    background-color: rgba(185, 185, 185, 0.2); 
     padding: 20px;
     text-align: center;
     
