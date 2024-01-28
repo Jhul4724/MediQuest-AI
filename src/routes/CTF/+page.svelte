@@ -1,29 +1,7 @@
+<script>
+  let text_box = "Please Write your condition";
+</script>
 <style>
-	html {
-  font-family: 'Roboto', sans-serif;
-}
-  
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  color: white;
-  background: linear-gradient(-45deg, #aac0f4, rgb(163, 161, 255), #c0e6ff, #c3b8fd);
-  background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
-  height: 100vh;
-  }
-  @keyframes gradient {
-    0% {
-    background-position: 0% 50%;
-    }
-    50% {
-    background-position: 100% 50%;
-    }
-    100% {
-    background-position: 0% 50%;
-    }
-}
 
 .outlined-text {
   color: white;
@@ -41,101 +19,16 @@ body {
   border-radius: 15px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
-  height: 7vh;
-  overflow: hidden;
-}
-
-nav a img {
-  height: 50px;
-}
-
-#nav-list {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-}
-
-#nav-list li {
-  padding: 0 15px;
-}
-
-#nav-list li a {
-  text-decoration: none;
-  color: #ffffff;
-  padding: 10px;
-  border-radius: 10px;
-  transition: all 0.3s ease-in-out;
-  font-size: 20px;
-}
-
-nav .try-now {  
-  background-color: rgb(169, 181, 245);
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  transition: transform 0.2s ease-in;
-  }
-
-  nav .try-now:hover {  
-    background-color: rgb(121, 217, 255);
-    color: #000000;
-    transform: scale(1.3);
-    box-shadow: 1px 1px 20px rgba(26, 5, 255, 0.9);
-  }
 
 .flex-item:hover {
   transform: scale(1.1);
   background-color: #159bfa;
 }
 
+
   
-#nav-list li a:hover {
-  background-color: aliceblue;
-  color: black;
-}
+
   
-.hamburger {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-}
-  
-.nav-toggle {
-  display: none;
-}
- 
-@media screen and (max-width: 768px) {
-  .hamburger {
-      display: block;
-  }
-  
-  #nav-list {
-      display: none;
-      width: 100%;
-      flex-direction: column;
-      text-align: center;
-  }
-  
-  #nav-list li {
-      padding: 10px 0;
-  }
-  
-  .nav-toggle:checked + #nav-list {
-      display: flex;
-  }
-}
 
 .btn1 {
   outline: 0;
@@ -379,47 +272,38 @@ nav .try-now {
 }
 
 .send {
-
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.1));
 }
 
-.text {
-
+.send:active {
+  scale: 0.92;
 }
 
-.text {
-
+.send:hover {
+  background: rgb(2,29,78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: rgb(4, 4, 38);
 }
 
-.text {
-
+.btn3 {
+  display: grid;
+  place-items: center;
+  height: 100px;
 }
-
-
 </style>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles.css" >
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="./Images/logoweb.png" />
-  <title>Index</title>
-</head>
-<body>
-  <section>
-    <nav>
-      <a href="index.html"><img src="./Images/logo.png" alt="Logo"></a>
-      
-      <ul id="nav-list">
-        <li><a href="../">Explore</a></li>
-        <li><a href="/system">How It Works</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    
-      <a href="/ctf" class="try-now">SEARCH</a>
-    </nav>
-    <div class="image-container"></div>
-  </section>
+
 
   <section class="form">
     <div class="content">
@@ -431,10 +315,12 @@ nav .try-now {
                     system to identify and recommend trials that are most relevant to your specific health needs.
                 </label> 
                 <br><br>
-                <textarea style="width: 100%; height: 300px; background-color: rgb(148, 148, 148, 0.1); border-radius: 10px;"></textarea>
-                <button type="submit" id="submitButton" class="send">
+                <textarea style="width: 100%; height: 300px; background-color: rgb(148, 148, 148, 0.1); border-radius: 10px;" bind:value={text_box}/>
+                <div class="btn3">
+                  <button type="submit" id="submitButton" class="send">
                     SEND
-                </button>
+                  </button>
+                </div>
                 <br><br>
             </div>
             
@@ -447,5 +333,4 @@ nav .try-now {
   <footer>
     <!-- Footer content here -->
   </footer>
-</body>
-</html>
+
