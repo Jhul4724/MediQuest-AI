@@ -386,7 +386,7 @@ nav .try-now {
 }
 
 footer{
-    background-color: #111;
+  background-color: rgba(185, 185, 185, 0.1); 
 }
 
 .footerContainer{
@@ -446,7 +446,7 @@ footer{
 }
 
 .footerBottom{
-    background-color: black;
+    background-color: rgba(185, 185, 185, 0.05); 
     padding: 20px;
     text-align: center;
     
