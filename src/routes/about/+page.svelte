@@ -304,7 +304,7 @@ nav .try-now {
   border-radius: 20px;
   transition: box-shadow 300ms;
   transition:  300ms;
-  background-color: rgba(217, 217, 217, 0.2);
+  background-color: rgba(217, 217, 217, 0.3);
   transition: transform 0.3s ease;
 }
 
@@ -366,7 +366,7 @@ nav .try-now {
             <a href="https://www.linkedin.com/in/julienhu/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
                <div class="content1">
                   <h3 style="color: aliceblue; font-size: 25px;">Julien Hu</h3>
-                  <img class="profile" src="Images/Julien.jpg" style="opacity: 0.8;">
+                  <img class="profile" src="Images/Julien.jpg" style="opacity: 0.8; box-shadow: 0 4px 12px rgba(0, 0, 0, .5);">
                   <h5 style="text-align: justify; padding: 20px;">
                     Julien is a Computer Science student and a front-end developer with a strong passion 
                     for artificial intelligence. Skilled in creating engaging user interfaces, 
@@ -384,12 +384,14 @@ nav .try-now {
           <a href="https://www.linkedin.com/in/hayden-choi-56ab23279/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
              <div class="content1">
                 <h3 style="color: aliceblue; font-size: 25px;">Hayden Choi</h3>
-                <img class="profile" src="Images/hayden.jpg" style="opacity: 0.8;">
+                <img class="profile" src="Images/hayden.jpg" style="opacity: 0.8; box-shadow: 0 4px 12px rgba(0, 0, 0, .5);">
                 <h5 style="text-align: justify; padding: 20px;">
                   <h5 style="text-align: justify; padding: 20px;">
-                    Hayden Choi is a dedicated Computer Science student who has excelled in implementing advanced AI technologies and backend development. His proficiency lies in designing and developing intelligent systems that are both efficient and scalable. 
+                    Hayden Choi is a dedicated Computer Science student who has excelled in implementing 
+                    advanced AI technologies and backend development.
                     <br><br>
-                    With a deep understanding of machine learning algorithms and data structures, Hayden has contributed significantly to the backend aspects of numerous projects. His ability to integrate AI with backend logic has enhanced the functionality and performance of these systems. Hayden's passion for AI and backend development drives him to continuously learn and apply the latest technologies in the field.
+                    With a deep understanding of machine learning algorithms and data structures, 
+                    Hayden has contributed significantly to the backend aspect of MediQuest AI.
                 </h5>
                 </h5>
              </div>
@@ -399,16 +401,16 @@ nav .try-now {
         <a href="https://www.linkedin.com/in/julian-laxman/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
            <div class="content1">
               <h3 style="color: aliceblue; font-size: 25px;">Julian Laxman</h3>
-              <img class="profile" src="Images/Julian.jpg" style="opacity: 0.8;">
+              <img class="profile" src="Images/Julian.jpg" style="opacity: 0.8; box-shadow: 0 4px 12px rgba(0, 0, 0, .5);">
               <h5 style="text-align: justify; padding: 20px;">
-                Julien is a Computer Science student and a front-end developer with a strong passion 
-                for artificial intelligence. Skilled in creating engaging user interfaces, 
-                he excels in applying innovative AI solutions to enhance web 
-                experiences. 
+                Julian has a comprehensive approach that enables him to create cohesive and 
+                efficient web applications that seamlessly integrate server-side and client-side functionalities.
                 <br><br>
-                Julien combines technical prowess with a creative approach, 
-                constantly exploring new trends in the tech world.
-              </h5>
+                His proficiency in server-side 
+                logic and database management allows him to effectively handle the intricacies of back-end 
+                development.
+            </h5>
+            
            </div>
          </a>
      </div>
@@ -416,16 +418,14 @@ nav .try-now {
           <a href="https://www.linkedin.com/in/anthony%2Dboileau%2D0045b5226/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
             <div class="content1">
                 <h3 style="color: aliceblue; font-size: 25px;">Anthony Boileau</h3>
-                <img class="profile" src="Images/anthony.jpg" style="opacity: 0.8;">
+                <img class="profile" src="Images/anthony.jpg" style="opacity: 0.8; box-shadow: 0 4px 12px rgba(0, 0, 0, .5);">
                 <h5 style="text-align: justify; padding: 20px;">
-                  Julien is a Computer Science student and a front-end developer with a strong passion 
-                  for artificial intelligence. Skilled in creating engaging user interfaces, 
-                  he excels in applying innovative AI solutions to enhance web 
-                  experiences. 
+                  Anthony has played a pivotal role in our project, primarily overseeing the overall development 
+                  process while making significant contributions to the backend development.
                   <br><br>
-                  Julien combines technical prowess with a creative approach, 
-                  constantly exploring new trends in the tech world.
-                </h5>
+                  With a strong background in backend technologies, Anthony has adeptly managed the server-side 
+                  operations, focusing on creating robust and scalable systems.
+              </h5>              
             </div>
           </a>
       </div>

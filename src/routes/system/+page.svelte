@@ -187,8 +187,8 @@ html {
   
   .presentation {
     text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   
   .image-container {
@@ -379,10 +379,11 @@ html {
         transform: scale(1.2)
     }
   }
+
 </style>
   <section>
     <div class="presentation" style="background-color: rgb(99, 99, 99, 0.2); margin-left:10%; margin-right:10%; padding-top: 60px; border-radius: 15px;">
-      <h1 style="font-size:60px; margin-top:10px; margin-bottom:10px; box-shadow: 10px " class="outlined-text">Welcome to the Clinical Trial Finder</h1>
+      <h1 style="font-size:60px; margin-top:10px; margin-bottom:10px; box-shadow: 10px " class="outlined-text">HOW DOES IT WORK?</h1>
       <br><br><br>
       <h1 class="outlined-text">
         Seamless Integration with Global Medical Databases

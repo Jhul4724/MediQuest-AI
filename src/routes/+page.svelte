@@ -463,6 +463,56 @@ footer{
     font-weight: 400;
     margin: 0px 5px;
 }
+
+/*-------------------------------------GRID CONTAINER CSS---------------------------------------------*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto); /* Adjusted for variable row heights */
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.grid-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80px;
+  margin: 30px;
+  background-color: rgb(94, 94, 94, 0.05);
+  padding: 20px;
+  justify-content: space-between;
+  box-shadow: 10px 1px 20px rgba(84, 84, 84, 0.5);
+  transition: transform 0.3s ease;
+  animation: glow 3.5s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 123, 255, 1);
+  }
+}
+
+.grid-item p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.grid-item span {
+  font-size: 0.9em;
+  color: #666;
+}
+
+
 </style>
   <section>
     <div class="presentation">
@@ -481,13 +531,32 @@ footer{
   </section>
 
   <section class="grid-container">
-    <div class="grid-item">Free</div>
-    <div class="grid-item">Reliable </div>
-    <div class="grid-item">Accurate</div>
-    <div class="grid-item">4</div>
-    <div class="grid-item">5</div>
-    <div class="grid-item">6</div>
+    <div class="grid-item">
+      <p>Free</p>
+      <span>No cost, accessible healthcare solutions.</span>
+    </div>
+    <div class="grid-item">
+      <p>Reliable</p>
+      <span>Trustworthy and dependable medical insights.</span>
+    </div>
+    <div class="grid-item">
+      <p>Accurate</p>
+      <span>Precision-driven AI for exact results.</span>
+    </div>
+    <div class="grid-item">
+      <p>User-Friendly</p>
+      <span>Easy to navigate and understand interface.</span>
+    </div>
+    <div class="grid-item">
+      <p>Evidence-Based</p>
+      <span>Recommendations grounded in scientific research.</span>
+    </div>
+    <div class="grid-item">
+      <p>Empowering</p>
+      <span>Enabling informed healthcare decisions.</span>
+    </div>
   </section>
+  
   <footer>
  <div class="footerbody">
         <footer>
