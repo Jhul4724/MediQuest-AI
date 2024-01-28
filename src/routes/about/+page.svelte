@@ -386,13 +386,11 @@ nav .try-now {
                 <h3 style="color: aliceblue; font-size: 25px;">Hayden Choi</h3>
                 <img class="profile" src="Images/hayden.jpg" style="opacity: 0.8;">
                 <h5 style="text-align: justify; padding: 20px;">
-                  Julien is a Computer Science student and a front-end developer with a strong passion 
-                  for artificial intelligence. Skilled in creating engaging user interfaces, 
-                  he excels in applying innovative AI solutions to enhance web 
-                  experiences. 
-                  <br><br>
-                  Julien combines technical prowess with a creative approach, 
-                  constantly exploring new trends in the tech world.
+                  <h5 style="text-align: justify; padding: 20px;">
+                    Hayden Choi is a dedicated Computer Science student who has excelled in implementing advanced AI technologies and backend development. His proficiency lies in designing and developing intelligent systems that are both efficient and scalable. 
+                    <br><br>
+                    With a deep understanding of machine learning algorithms and data structures, Hayden has contributed significantly to the backend aspects of numerous projects. His ability to integrate AI with backend logic has enhanced the functionality and performance of these systems. Hayden's passion for AI and backend development drives him to continuously learn and apply the latest technologies in the field.
+                </h5>
                 </h5>
              </div>
            </a>
