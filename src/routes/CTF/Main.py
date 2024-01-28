@@ -22,9 +22,10 @@ def gpt(input):
     )
     return response.choices[0].message.content
 
-# print(gpt(""))
+print(gpt("When I run for more than a few minutes, breathing becomes difficult."))
 
-gpt("WHen I run for more than a few minutes, breathing becomes difficult.")
+
+
 
 
 

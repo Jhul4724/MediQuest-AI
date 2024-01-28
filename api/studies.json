@@ -1,4 +1,4 @@
-[
+{ "articles": [
   {
     "title": "Analysis of Global Ischemic Heart Disease Burden from Multiple Perspectives",
     "link": " https://doi.org/10.1101/2023.10.26.23297610",
@@ -40,3 +40,4 @@
     "condition": "asthma"
   }
 ]
+}
