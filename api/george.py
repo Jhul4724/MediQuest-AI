@@ -47,7 +47,7 @@ class handler(BaseHTTPRequestHandler):
    def do_POST(self):
          content_length = int(self.headers['Content-Length'])
          post_data = self.rfile.read(content_length)
-         received_data = str(post_data.decode('utf-8'))
+         received_data = (post_data.decode('utf-8'))
          htmlhaha = str(inforapi(received_data))
 
          self.send_response(200)
