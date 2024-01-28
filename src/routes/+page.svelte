@@ -468,11 +468,11 @@ footer{
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, auto); /* Adjusted for variable row heights */
-  margin-left: 30%;
-  margin-right: 30%;
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
-  text-align: center;
+  gap: 30px; /* Increased gap between items */
 }
 
 .grid-item {
@@ -484,21 +484,20 @@ footer{
   align-items: center;
   width: 80%;
   height: 80px;
-  margin: 30px;
-  background-color: rgb(94, 94, 94, 0.05);
+  background-color: rgba(94, 94, 94, 0.05);
+  backdrop-filter: blur(7px); /* Blur effect */
   padding: 20px;
-  justify-content: space-between;
   box-shadow: 10px 1px 20px rgba(84, 84, 84, 0.5);
-  transition: transform 0.3s ease;
-  animation: glow 3.5s ease-in-out infinite;
+  transition: transform 1s ease;
+  animation: glow 5s ease-in-out infinite;
 }
 
 @keyframes glow {
   0%, 100% {
-    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+    box-shadow: 0 0 10px rgb(0, 229, 255);
   }
   50% {
-    box-shadow: 0 0 20px rgba(0, 123, 255, 1);
+    box-shadow: 0 0 20px rgb(229, 158, 255);
   }
 }
 
@@ -511,7 +510,6 @@ footer{
   font-size: 0.9em;
   color: #666;
 }
-
 
 </style>
   <section>
