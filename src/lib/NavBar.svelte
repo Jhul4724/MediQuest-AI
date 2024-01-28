@@ -14,7 +14,41 @@
   </section>
 
   <style>
-    
+    .image-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  background-image: url('./Images/grid.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 100px;
+}
+
+.grid-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  margin: 30px;
+  background-color: rgb(94, 94, 94, 0.05);
+  box-shadow: 10px 1px 20px rgba(84, 84, 84, 0.5);
+}
 nav {
   display: flex;
   justify-content: space-between;

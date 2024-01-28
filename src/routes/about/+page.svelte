@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   color: white;
-  background: linear-gradient(-45deg, #aac0f4, rgb(163, 161, 255), #c0e6ff, #c3b8fd);
+  background: linear-gradient(-45deg, #79a1ff, rgb(140, 138, 255), #97b8cf, #afa1f7);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   height: 100vh;
@@ -189,41 +189,6 @@ nav .try-now {
   padding-right: 20%;
 }
 
-.image-container {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: -1;
-  overflow: hidden;
-  background-image: url('./Images/grid.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 0.1;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 100px;
-}
-
-.grid-item {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  aspect-ratio: 1;
-  margin: 30px;
-  background-color: rgb(94, 94, 94, 0.05);
-  box-shadow: 10px 1px 20px rgba(84, 84, 84, 0.5);
-}
 
 
 
@@ -258,15 +223,19 @@ nav .try-now {
 
 /* ---------------------------------------- ABOUT.HTML CSS---------------------------------------*/
 .container {
-    margin-right: 15%;
+  margin-right: 15%;
   margin-left: 15%;
   flex-direction: row;
+  display: grid;
+  justify-items: center;
 }
 
 .flex-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .flex-item {
@@ -274,7 +243,7 @@ nav .try-now {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 15px;
-  margin: 10px;
+  margin: 5px;
   background-color: rgb(128, 128, 128, 0.3);
   transition: transform 0.3s ease;
   display: flex;
@@ -284,7 +253,7 @@ nav .try-now {
 
 .flex-item:hover {
   transform: scale(1.1);
-  background-color: #159bfa;
+  background-color: #01487a;
 }
 
 .inside {
@@ -391,29 +360,78 @@ nav .try-now {
             innovation and the belief that everyone deserves access to the best possible medical care.
         </h2>
         <br><br><br><br>
-    </div>
+    </div>    
+      <div class="flex-container">
+        <div class="column flex-item">
+            <a href="https://www.linkedin.com/in/julienhu/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
+               <div class="content1">
+                  <h3 style="color: aliceblue; font-size: 25px;">Julien Hu</h3>
+                  <img class="profile" src="Images/Julien.jpg" style="opacity: 0.8;">
+                  <h5 style="text-align: justify; padding: 20px;">
+                    Julien is a Computer Science student and a front-end developer with a strong passion 
+                    for artificial intelligence. Skilled in creating engaging user interfaces, 
+                    he excels in applying innovative AI solutions to enhance web 
+                    experiences. 
+                    <br><br>
+                    Julien combines technical prowess with a creative approach, 
+                    constantly exploring new trends in the tech world.
+                  </h5>
+               </div>
+             </a>
+         </div>
 
-    <div class="container">
-        <div class="flex-container">
-            <div class="column flex-item">
-                <a href="https://www.linkedin.com/in/julienhu/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
-                   <div class="content1">
-                      <h3 style="color: aliceblue; font-size: 25px;">Julien Hu</h3>
-                      <img class="profile" src="Images/Julien.jpg" style="opacity: 0.8;">
-                      <h5 style="text-align: justify; padding: 20px;">
-                        Julien is a Computer Science student and a front-end developer with a strong passion 
-                        for artificial intelligence. Skilled in creating engaging user interfaces, 
-                        he excels in applying innovative AI solutions to enhance web 
-                        experiences. 
-                        <br><br>
-                        Julien combines technical prowess with a creative approach, 
-                        constantly exploring new trends in the tech world.
-                      </h5>
-                   </div>
-                </a>
+         <div class="column flex-item">
+          <a href="https://www.linkedin.com/in/hayden-choi-56ab23279/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
+             <div class="content1">
+                <h3 style="color: aliceblue; font-size: 25px;">Hayden Choi</h3>
+                <img class="profile" src="Images/hayden.jpg" style="opacity: 0.8;">
+                <h5 style="text-align: justify; padding: 20px;">
+                  Julien is a Computer Science student and a front-end developer with a strong passion 
+                  for artificial intelligence. Skilled in creating engaging user interfaces, 
+                  he excels in applying innovative AI solutions to enhance web 
+                  experiences. 
+                  <br><br>
+                  Julien combines technical prowess with a creative approach, 
+                  constantly exploring new trends in the tech world.
+                </h5>
+             </div>
+           </a>
+       </div>
+       <div class="column flex-item">
+        <a href="https://www.linkedin.com/in/julian-laxman/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
+           <div class="content1">
+              <h3 style="color: aliceblue; font-size: 25px;">Julian Laxman</h3>
+              <img class="profile" src="Images/Julian.jpg" style="opacity: 0.8;">
+              <h5 style="text-align: justify; padding: 20px;">
+                Julien is a Computer Science student and a front-end developer with a strong passion 
+                for artificial intelligence. Skilled in creating engaging user interfaces, 
+                he excels in applying innovative AI solutions to enhance web 
+                experiences. 
+                <br><br>
+                Julien combines technical prowess with a creative approach, 
+                constantly exploring new trends in the tech world.
+              </h5>
+           </div>
+         </a>
+     </div>
+        <div class="column flex-item">
+          <a href="https://www.linkedin.com/in/anthony%2Dboileau%2D0045b5226/" style="text-decoration: none; color:rgb(53, 92, 245)" class="outlined-text">
+            <div class="content1">
+                <h3 style="color: aliceblue; font-size: 25px;">Anthony Boileau</h3>
+                <img class="profile" src="Images/anthony.jpg" style="opacity: 0.8;">
+                <h5 style="text-align: justify; padding: 20px;">
+                  Julien is a Computer Science student and a front-end developer with a strong passion 
+                  for artificial intelligence. Skilled in creating engaging user interfaces, 
+                  he excels in applying innovative AI solutions to enhance web 
+                  experiences. 
+                  <br><br>
+                  Julien combines technical prowess with a creative approach, 
+                  constantly exploring new trends in the tech world.
+                </h5>
             </div>
-        </div>
-    </div>
+          </a>
+      </div>
+      </div>
   </section>
 
   
