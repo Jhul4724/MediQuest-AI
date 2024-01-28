@@ -468,36 +468,34 @@ footer{
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, auto);
-  justify-content: center;
+  grid-template-rows: auto;
+  gap: 20px; 
+  justify-content: center; 
   align-items: center;
-  margin-top: 100px;
-  gap: 30px; /* Increased gap between items */
 }
 
 .grid-item {
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  height: 80px;
-  background-color: rgba(94, 94, 94, 0.05);
-  backdrop-filter: blur(7px); /* Blur effect */
-  padding: 20px;
-  box-shadow: 10px 1px 20px rgba(84, 84, 84, 0.5);
+  height: 120px; 
+  background-color: rgba(185, 185, 185, 0.05); 
+  backdrop-filter: blur(4px);
+  padding: 10px;
+  box-shadow: 10px 1px 20px rgba(84, 84, 84, 0.2);
   transition: transform 1s ease;
   animation: glow 5s ease-in-out infinite;
 }
 
 @keyframes glow {
   0%, 100% {
-    box-shadow: 0 0 10px rgb(0, 229, 255);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
   }
   50% {
-    box-shadow: 0 0 20px rgb(229, 158, 255);
+    box-shadow: 0 0 20px rgba(0, 123, 255, 1);
   }
 }
 
@@ -528,7 +526,7 @@ footer{
     </div>
   </section>
 
-  <section class="grid-container">
+  <section class="grid-container section" style="width: 12s00px; border-radius: 20px; padding: 10px;">
     <div class="grid-item">
       <p>Free</p>
       <span>No cost, accessible healthcare solutions.</span>
