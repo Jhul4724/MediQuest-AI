@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   color: white;
-  background: linear-gradient(-45deg, #aac0f4, rgb(163, 161, 255), #c0e6ff, #c3b8fd);
+  background: linear-gradient(-45deg, #79a1ff, rgb(140, 138, 255), #97b8cf, #afa1f7);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   height: 100vh;
