@@ -489,16 +489,28 @@ footer{
     <div class="grid-item">6</div>
   </section>
   <footer>
-        <div class="footerContainer">
+ <div class="footerbody">
+        <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href="https://github.com/Jhul4724/mchacks_mediquest"><i class="fa-brands fa-github"></i></a>
+        </div>
         <div class="footerNav">
             <ul>
-                <li><a href="about.to" rel="noopener noreferer">Dev Post</a></li>
-                <li><a href="https://github.com/Jhul4724/mchacks_mediquest"target="_blank" rel="noopener noreferer">Github</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="mailto:abc@gmail.com"target="_blank" rel="noopener noreferer">Contact us</a></li>
+                <li><a href=""target="_blank" rel="noopener noreferer">DevPost</a></li>
             </ul>
         </div>
 
     </div>
     <div class="footerBottom">
-        <p>Copyright &copy;2024; Designed by <span class="designer">MediQuest</span></p>
+        <p>Copyright &copy;2024; Designed by <span class="designer">MediQuest Inc.</span></p>
+    </div>
     </div>
   </footer>
